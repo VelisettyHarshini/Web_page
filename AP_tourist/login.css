@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:url(a.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(2, 151, 174);   
+    justify-content: space-around;
+    height: 12vh;
+    
+}
+.nav h1{
+    border-radius: 10px;
+    color: rgba(206, 220, 157, 0.849);
+    font-size: 29px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav p {
+    color: white;
+    font-size: 2px;
+    padding-top: 30px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.container {
+   position: absolute;
+   top: 8%;
+   left: 10%;
+   transform: translate(-50% -50% );
+   width: 400px;
+}
+
+.container h1 {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin: 30px 0;
+    color: rgba(0, 0, 0, 0.649);
+}
+
+.container p {
+    font-size: large;
+    margin: 20px 0 0 0;
+}
+
+.container input {
+    font-size: 16px;
+    padding: 5px ;
+    width: 100%;
+    border:2px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.container mainbody-in-one if-three{
+    padding: 5px;
+}
+
+.container button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(2, 151, 174);
+    text-align: center;
+    
+}
+
+.container button:hover {
+    color: red;
+}
+button a {
+    color: white;
+    text-decoration: none;
+
+}
+.footer {
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(2, 151, 174);
+    color: #fff;
+    text-align: center;
+    padding-top: 2vh;
+    margin-top: 600px;
+}
